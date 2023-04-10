@@ -1,0 +1,175 @@
+header{
+    background-image: url(image/header.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 5px 1% 5% 1%;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Satisfy', cursive;
+    position: relative;
+    
+}
+
+.myself{
+    background-image: url(image/弓1.jpg);
+    padding: 20px;
+    margin: 10px;
+    border:3px #061826 solid;
+    border-radius: 50%;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 13%;
+    right: 8%;
+}
+.aa{
+    padding: 20px;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav .aa:hover{
+    background-color:#9FBFE3 ;   
+}
+header p{
+    margin: 40px 90px 0px 50px;
+    font-size: 36px;
+    font-style: italic;
+}
+header h3{
+    margin: 0px 0px 0px 90px;
+    text-decoration:double underline;
+    font-style: italic;
+    
+}
+.big1{
+    background-color: #5B72C8;
+    border-radius: 30px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #5B72C8;
+    border-radius: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    border: 0px;
+    width: 600px;
+}
+main{
+    background-color: #9FBFE3;
+    background-size: cover;
+    padding: 2%;
+    border-radius: 10px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+body{
+    margin: 0;
+    background-color: #D8DDE9;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+footer{
+    background-color: #5B72C8;
+    padding: 0 0 5px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+footer p{
+    margin: 15px 0px 0 0px;
+    color: aliceblue;
+}
+footer img{
+    margin: 10px 20px 0 0 ;
+
+}
+ol {
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li {
+    counter-increment: my-counter;
+    text-indent: -1em;
+}
+
+ol li::before {
+    content: "⚝";
+    color: blue;
+    font-weight: bold;
+}
+.dont{
+    background-color: black;
+}
+.dont:hover{
+    background-color: white;
+    color: red;
+}
+.introduce{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 70px 0 70px 10%;
+    width: 60%;
+}
+.leftright{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+.whale{
+    margin: 50px 20px 0 0;
+    background-image: url(image/whale.jpg);
+    padding: 5% 15% 5% 15%;
+    height: 300px;
+    background-size:cover;
+    border-radius: 20px;
+}
+.experience{
+    background-color: white;
+    margin: 50px 70px 0 0px;
+    border-radius: 10px;
+}
+.array {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.array-crtl {
+    display: flex;
+    justify-content: center;
+}
+
+.item-img img {
+    border:2px solid #5B72C8;
+    width: 150px;
+    height: 200px;
+    margin: 10px 0 0 0;
+}
+
+.item {
+    margin: 0px 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+}
+
+/*.triangle-box {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 300px 00px 0px; 
+    border-color: transparent transparent #007bff transparent;  
+}*/
