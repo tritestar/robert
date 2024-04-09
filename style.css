@@ -156,6 +156,11 @@ ol li::before {
     height: 200px;
     margin: 10px 0 0 0;
 }
+.item-img-Tao{
+    width: 500px;
+    height: 210px;
+    margin: 10px 0 0 0;
+}
 
 .item-img-Tao img{
     border:2px solid #5B72C8;
